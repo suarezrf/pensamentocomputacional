@@ -1,5 +1,10 @@
-lista = ["30","22","25","28"]
+lista =  [30, 22, 25, 28, 31, 27, 29]
 
-if lista < 25 :
-    lista + 5
-    print(lista)
+print(lista)
+print("=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-")
+
+for i in range (len(lista)):
+    if lista[i] < 25:
+        lista[i] += 5
+
+print(lista)
